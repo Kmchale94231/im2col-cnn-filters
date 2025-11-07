@@ -22,31 +22,6 @@ which is a standard matrix multiplication and much faster in optimized libraries
 - Performs matrix multiplication with the `im2col` output
 - Reshapes back into an image
 
-
-## 📁 Project Structure
-code/
-├── im2col.py # Image → column matrix conversion
-├── filters.py # Convolution via im2col + matrix multiply
-├── main.py # Runs filters and saves outputs
-└── init.py
-
-data/
-└── sample.png # Input grayscale image
-
-results/
-├── blur.png
-├── sharpen.png
-├── sobel_x.png
-├── sobel_y.png
-├── edges.png # Gradient magnitude image
-└── grid.png # Combined comparison display
-
-test_im2col.py # Test script for validating im2col correctness
-
----
-
-## Running the Project
-
 ### Install dependencies:
 ```bash
 pip install numpy pillow matplotlib
